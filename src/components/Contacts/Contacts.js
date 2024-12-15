@@ -4,6 +4,9 @@ import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
+import hashnodeLogo from '../logo/hashnode.png'
+import google_scholar_logo from '../logo/google-scholar.png'
+import x_logo from '../logo/x.png'
 import {
     FaTwitter,
     FaLinkedinIn,
@@ -176,7 +179,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Ashutosh Mishra'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +195,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='am3718440@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -320,7 +323,16 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaTwitter aria-label='Twitter' />
+                                    <img
+                                        src={x_logo}
+                                        alt='X'
+                                        className='landing--social'
+                                        style={{
+                                            width: '25px', 
+                                            height: '25px',
+                                            fill : theme.secondary
+                                        }}
+                                    />
                                 </a>
                             )}
                             {socialsData.github && (
@@ -363,7 +375,7 @@ function Contacts() {
                                     <FaMediumM aria-label='Medium' />
                                 </a>
                             )}
-                            {socialsData.blogger && (
+                            {/* {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
                                     target='_blank'
@@ -372,7 +384,47 @@ function Contacts() {
                                 >
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
+                            )} */}
+                            {socialsData.hashnode && (
+                                <a
+                                    href={socialsData.hashnode}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <img
+                                        src={hashnodeLogo}
+                                        alt='Hashnode'
+                                        className='landing--social'
+                                        style={{
+                                            width: '25px', 
+                                            height: '25px',
+                                            fill : theme.secondary
+                                        }}
+                                    />
+                                </a>
                             )}
+
+                            {socialsData.google_scholar && (
+                                <a
+                                    href={socialsData.google_scholar}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <img
+                                        src={google_scholar_logo}
+                                        alt='Hashnode'
+                                        className='landing--social'
+                                        style={{
+                                            width: '28px', 
+                                            height: '28px',
+                                            fill : theme.secondary
+                                        }}
+                                    />
+                                </a>
+                            )}
+
                             {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
@@ -383,16 +435,7 @@ function Contacts() {
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
                             )}
-                            {socialsData.reddit && (
-                                <a
-                                    href={socialsData.reddit}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaRedditAlien aria-label='Reddit' />
-                                </a>
-                            )}
+                            
                             {socialsData.stackOverflow && (
                                 <a
                                     href={socialsData.stackOverflow}
@@ -403,16 +446,7 @@ function Contacts() {
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
                             )}
-                            {socialsData.codepen && (
-                                <a
-                                    href={socialsData.codepen}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaCodepen aria-label='CodePen' />
-                                </a>
-                            )}
+                           
                             {socialsData.gitlab && (
                                 <a
                                     href={socialsData.gitlab}

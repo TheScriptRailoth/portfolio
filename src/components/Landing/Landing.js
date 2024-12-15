@@ -7,6 +7,8 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import hashnodeLogo from '../logo/hashnode.png';
+import x_logo from '../logo/x.png'
 
 import {
     FaTwitter,
@@ -107,10 +109,15 @@ function Landing() {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <img
+                                    src={x_logo}
+                                    alt='X'
                                     className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    style={{
+                                        width: '35px', 
+                                        height: '35px',
+                                        fill : theme.secondary
+                                    }}
                                 />
                             </a>
                         )}
@@ -127,16 +134,21 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.hashnode && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.hashnode}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <img
+                                    src={hashnodeLogo}
+                                    alt='Hashnode'
                                     className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    style={{
+                                        width: '35px', 
+                                        height: '35px',
+                                        fill : theme.secondary
+                                    }}
                                 />
                             </a>
                         )}
