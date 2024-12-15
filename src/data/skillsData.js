@@ -4,7 +4,6 @@
     'Android',
     '.Net',
     'C#',
-    'AI/ML',
     'Python',
     'Java',
     'HTML',
@@ -12,7 +11,11 @@
     'Flask',
     'Node.js',
     'Unity',
-    'AR',
+    'Git',
+    'C++',
+    'C',
+    'MySQL',
+    'Selenium'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
