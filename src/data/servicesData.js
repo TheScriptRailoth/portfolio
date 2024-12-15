@@ -1,8 +1,8 @@
 /* eslint-disable */
-import { BiShoppingBag, BiPencil } from "react-icons/bi";
+import { BiShoppingBag, BiPencil, BiCode } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
-import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { AiOutlineMail, AiFillAudio, AiFillAndroid, AiFillMobile, AiOutlineMobile, AiOutlineAntDesign } from "react-icons/ai";
+import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper, FaUikit, FaCreativeCommons, FaVrCardboard, FaDatabase } from "react-icons/fa";
 
  
 
@@ -14,14 +14,14 @@ export const servicesData = [
     // },
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
+        title: 'Application Development',
+        icon: <AiOutlineMobile /> 
     },
-    {
-        id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
-    },
+    // {
+    //     id: 3,
+    //     title: 'Email Marketing',
+    //     icon: <AiOutlineMail />
+    // },
     // {
     //     id: 4,
     //     title: 'Internet Research',
@@ -35,13 +35,13 @@ export const servicesData = [
 
     {
         id: 6,
-        title: 'Web Design',
+        title: 'Web Development',
         icon: <BsCodeSlash />
     },
     {
         id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        title: 'UI/UX Design',
+        icon: <BiPencil/>
     },
     // {
     //     id: 8,
@@ -50,8 +50,8 @@ export const servicesData = [
     // }, 
     {
         id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
+        title: 'AR/VR Development',
+        icon: <FaVrCardboard/>
     },
     // {
     //     id: 10,
@@ -60,8 +60,8 @@ export const servicesData = [
     // },
     {
         id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
+        title: 'Data Engineering',
+        icon: <FaDatabase />
     },
     // {
     //     id: 12,
@@ -72,6 +72,11 @@ export const servicesData = [
         id: 13,
         title: 'Blog Posting',
         icon: <FaRegNewspaper />
+    },
+    {
+        id: 14,
+        title: 'Technical Consultancy',
+        icon: <BiCode />
     },
 
 ]

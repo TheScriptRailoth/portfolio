@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Ashutosh_Mishra_Resume.pdf'
+import profile_pic from '../assets/img/my_pic.png'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Ashutosh Mishra',
+    title: "Software Dveloper",
+    desciption:"Code with purpose. Create with passion. Innovate without limits. Welcome to the fusion of creativity and technology that defines my work.",
+    image: profile_pic,
     resumePdf: resume
 }

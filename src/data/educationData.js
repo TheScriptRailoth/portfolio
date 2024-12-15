@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Jaypee University of Engineering and Technology, Guna',
+        course: 'Bachelor of Technology',
+        startYear: '2021',
+        endYear: 'Present'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'St. Joseph Vaz Vidya Niketan',
+        course: 'Higher Secondary Certificate',
+        startYear: '2020',
+        endYear: '2021'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'St. Joseph Vaz Vidya Niketan',
+        course: 'Secondary School Certificate',
+        startYear: '2018',
+        endYear: '2019'
     },
 ]

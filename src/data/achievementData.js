@@ -1,29 +1,33 @@
+import hackathon_img from '../assets/img/Achivements/hackathon.jpg'
+import google_cloud from '../assets/img/Achivements/google_cloud.png'
+import bootcamp from '../assets/img/Achivements/bootcamp.jpg'
+
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "Achievements in hackathons, events, and continuous learning have shaped my journey. From winning Hackathons to developing innovative projects, I consistently strive to enhance my skills and push the boundaries of what I can create.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Winner - HashHacks CIC Hackathon (All India Level)',
+            details : 'Won first place in the CIC Hackathon for developing an AR-based indoor navigation system providing seamless navigation within buildings.',
+            date : 'Februrary 2023',
+            field : 'Awards',
+            image : hackathon_img
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Google Arcade Badge Achiever',
+            details : 'Earned 30+ badges by completing courses on AI/ML, DevOps, and Google Cloud Platform (GCP) etc., demonstrating a strong commitment to learning and tech excellence.',
+            date : 'March 2024',
+            field : 'Certifications',
+            image : google_cloud
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Selected for IDE Bootcamp 2023 by MoE & AICTE',
+            details : 'Selected for IDE Bootcamp 2023 by the Ministry of Education and AICTE. Collaborated with 40+ entrepreneurs to explore project development and entrepreneurship.',
+            date : 'June 2023',
+            field : 'Recognitions',
+            image : bootcamp
         }
 
     ]
