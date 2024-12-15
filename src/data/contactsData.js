@@ -3,5 +3,5 @@ export const contactsData = {
     phone: '+91-8423979654',
     address: 'Jaypee University of Engineering and Technology, Guna, Raghogarh, AB Road - 473226',
 
-    sheetAPI: ''
+    sheetAPI: 'https://sheetdb.io/api/v1/hzmqfzlpv33ja'
 }

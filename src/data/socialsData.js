@@ -7,6 +7,6 @@ export const socialsData = {
     twitter: 'https://x.com/ScriptRailoth',
     blogger: 'https://www.blogger.com/',
     medium: 'https://medium.com/@am3718440',
-    hashnode : 'https://thescriptrailoth.hashnode.dev/'
-    
+    hashnode : 'https://thescriptrailoth.hashnode.dev/',
+    google_scholar : ''
 }
