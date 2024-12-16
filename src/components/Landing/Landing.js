@@ -141,12 +141,12 @@ function Landing() {
                                 rel='noreferrer'
                             >
                                 <img
-                                    src={hashnodeLogo}
+                                    src= 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEeUlEQVR4nO2dT28WVRTGh4UutLpQ/AqoW1CCUSLyiaQWXEEN2LCgG5d+A6XoRzDGraDA1rb8Saed5zkj6YIaBdJrTjokBWtg5p059++T3E3Td95zfs+duTNzz71vVRUVFRUVFRUVFQUq59whEfkQwDmSP5C8DeABgEdd+5PkLZLXAJwVkQ/0M77jjl6bm5vvkFwkuU7S9WxrJC/UdX3Ydx7RaWtr63WSl0n+NQD8820HwJIe03deUYjkpwDujwD+mQbgHsmTvvMLWgAWADwZG/4+Ex6TnPedZ3Byzh0CsDwV+APalTJIPwv/G0P4T8+Gb7M3wXmCX0zw2PNZTAgHPnO8HIUGnzmZECp85mBC6PCZsgmxwGeKJsQGnymZECt8pmBC7PAZswmpwGeMJqQGnzGZkCp8xmBC6vAZsgm5wGeIJuQGnyGZkCt8hmBC7vDp04QCn/5MKPDp70wo8On3cmRcOuKeS24XwHWS50XklIi8q9Vu2kTkPf2bliICuOF5TFieCv6CR/DfkzzysrGqOSRX9LOejJifolxwsoo1/n9bbdv2+NC4m6Y5MbCwd9ZO82S0MkgAc1PUar5EEj9tbGy8PWv8Wh0N4GcP8d8bpSC4q1I2h++ce6UaSc65Vz2ZsDRGff4YJeJ92rp+bzWy9Gwi+YdxLjsz5dItjrDsMbuzXPNfpKZpPvIwMC8OClbvZ60HMADfVRNLlzEZG7A26NlA12RZ9372uNUcKn1mMDbAicix3oEC+NLYgF8nIX5wbr8Z57bQO8huNaJlTzk/Ce0AxjZ9KBwS5G3LIEXkVGUkETltbMDN3kF2a28tgzxSGal7VWGZW9s7SF0AbRkkgLlJaB+c25xxbv8Eb4CIvFEZqW3bN43PgL97B1kuQRzTAIlhEP6sMlIUg7CHJ8YLlZEAfGWc29UhQZ6zDBLAjcpI2iMtcxORL3oHqVu+GBuwq7eH1cRq2/Z9496v7eigYD28vl0Znfh/c/rROKfVwRP1el22PguapjlRTSQAH3t4HT18bNve3n6L5EPjgO9MOCGzapzLzswbRgH42jhop9OHOo048pTkLx7yuDhz8Dqx3G12ZG5CPcJ2Y3o2+YCvZ3Jd169VY0hLLLrNjqyTWNdpxFmu+QrCQ+d5rN89Cvx9Jsx7MMB1g+Y1ncnqeatpPZ+xv31epVaayD0zdCZrUV8lqCFdzdJcV5p4unvC/T3J0kRVKc7li+CXCmn66/lljQBzgF8uR/QPv5hA//BzNwEhwM/VBIQEPzcTECL8XExAyPBTNwExwE/VBMQEPzUTECP8VExAzPBjNwEpwI/VBKQEPzYTkCL8WExAyvBDNwE5wA/VBOQEPzQTkCP8UExAzvCfypWfsfIvt7ctwhXDnr+cfc8/SCTPTFmB1x37jHkPi0kAPiF5dwID7uqxfecXhbb2CoKXtLx7BPAPAVwarVA2J9V1fbhbJLI2AHz5QecxJSLHdLGbLmPSRXa6jllXoGvTrQC6hXcr+j+DtocpKioqKioqKiqq7PQv3Eo/r99dLHoAAAAASUVORK5CYII='
                                     alt='Hashnode'
                                     className='landing--social'
                                     style={{
-                                        width: '35px', 
-                                        height: '35px',
+                                        width: '1.5rem', 
+                                        height: '1.5rem',
                                         fill : theme.secondary
                                     }}
                                 />

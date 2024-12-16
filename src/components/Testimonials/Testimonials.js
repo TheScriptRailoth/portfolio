@@ -49,10 +49,7 @@ function Testimonials() {
                         <h1 style={{ color: theme.secondary }}>Behind the Lens</h1>
                     </div>
                     <div className='testimonials--body'>
-                        <FaQuoteLeft
-                            className='quote'
-                            style={{ color: theme.secondary }}
-                        />
+                        
                         <div
                             className='testimonials--slider'
                             style={{ backgroundColor: theme.primary }}

@@ -328,8 +328,8 @@ function Contacts() {
                                         alt='X'
                                         className='landing--social'
                                         style={{
-                                            width: '25px', 
-                                            height: '25px',
+                                            width: '1.5rem', 
+                                            height: '1.5rem',
                                             fill : theme.secondary
                                         }}
                                     />
@@ -397,8 +397,8 @@ function Contacts() {
                                         alt='Hashnode'
                                         className='landing--social'
                                         style={{
-                                            width: '25px', 
-                                            height: '25px',
+                                            width: '1.5rem', 
+                                            height: '1.5rem',
                                             fill : theme.secondary
                                         }}
                                     />
@@ -417,8 +417,8 @@ function Contacts() {
                                         alt='Hashnode'
                                         className='landing--social'
                                         style={{
-                                            width: '28px', 
-                                            height: '28px',
+                                            width: '1.5rem', 
+                                            height: '1.5rem',
                                             fill : theme.secondary
                                         }}
                                     />
