@@ -271,12 +271,6 @@
         margin-top: 2rem;
     }
     .submit-btn{align-self: center;}
-
-    .socialmedia-icons {
-        width: 1.5em;
-        gap: 1.5rem;
-        margin-top: 2rem;
-    }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 
