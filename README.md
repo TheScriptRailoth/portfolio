@@ -47,10 +47,10 @@ Click the link above to visit my portfolio website and explore the sections in d
 
 I’m always open to opportunities, collaborations, or feedback. Feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
-- **Portfolio**: [your-portfolio-url.com](https://your-portfolio-url.com)
+- **Email**: [your-email@example.com](mailto:am3718440@gmail.com)
+- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/thescriptrailoth)
+- **GitHub**: [github.com/your-username](https://github.com/thescriptrailoth)
+- **Portfolio**: [your-portfolio-url.com](https://thescriptrailoth.netlify.app)
 
 ---
 
