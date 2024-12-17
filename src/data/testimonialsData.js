@@ -99,7 +99,7 @@ export const testimonialsData = [
         id: 9,
         // name: 'Monica Geller',
         // title: 'Head Chef',
-        text: "Techyon - Tefest JUET 2023",
+        text: "Tachyon - Techfest JUET 2023",
         image: tachyon_vc
     },
 ]

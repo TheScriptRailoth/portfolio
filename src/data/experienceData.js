@@ -16,7 +16,7 @@ export const experienceData = [
     {
         id: 3,
         company: 'Jaiprakash Power Venture Ltd. (JVPL)',
-        jobtitle: 'Project Inter Trainee',
+        jobtitle: 'Project Intern Trainee',
         startYear: '02/2024',
         endYear: '05/2024'
     },
